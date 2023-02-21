@@ -1,0 +1,12 @@
+Memory allocation and deallocation happens automatically in golang
+new()
+allocates memory but no INIT
+you will get a memory address
+zeroed storage
+
+make()
+Allocate memory and INIT
+you will get a memory address
+non-zeroed memory
+
+** GC happens automatically. Anything that is out of scope or nil.
