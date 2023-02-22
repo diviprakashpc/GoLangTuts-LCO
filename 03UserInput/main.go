@@ -33,3 +33,8 @@ func main() {
 	fmt.Println("Thanks for rating ", input)
 	fmt.Printf("Type of rating is %T \n", input)
 }
+
+//We ignore the values we dont want to use by using underscore in comma ok syntax.
+//We put underscore to ignore because if we use any variable name and
+//then not use that variable, go will give error. Underscore is not
+//considered variable by go in comma ok syntax
